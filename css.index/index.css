@@ -170,18 +170,10 @@ img {
 }
 .links {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  margin: 5% 0 3% 0;
-  align-items: center;
-  width: 20;
+  justify-content: center;
 }
-.links nav a {
-  text-decoration: none;
-  color: black;
-  font-size: 1.8rem;
-  width: 20%;
-  padding: 0 15px;
+.links .company-name {
+  width: 50%;
 }
 .footer {
   width: 100%;
@@ -193,15 +185,6 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
-}
-.home .header {
-  border-top: 2px dashed lightgrey;
-}
-.home .header .img {
-  padding-bottom: 20px;
-}
-.home .header .welcome {
-  border-bottom: 2px dashed lightgrey;
 }
 .home .content-section {
   margin: 30px 0;
